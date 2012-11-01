@@ -23,7 +23,7 @@ All the familiar Wordpress pages are located in the "assets" directory (the only
 
 ## The steroid version
 
-Frontin has been used as the blueprint for [CurtainsUp For Wordpress](url)
+Frontin has been used as the blueprint for [CurtainsUp For Wordpress](http://alexduloz.github.com/CurtainsUp/)
 
 [More Info &amp; Examples](http://alexduloz.github.com/frontin/)
 
