@@ -48,13 +48,15 @@ You can write static content *and* benefit from Wordpress stats, plugins etc.
 
 The __config.php lets you easily configure include paths to use your favourite PHP libraries in your projects. Here's an example with the Zend Framework:
 
-	// Directory structure:
+Directory structure:
+
 	frontin
 	    __config.php
 	    library
 	        Zend
 	        ...
 
+In your template:
 
 	// __config.php
 	// Easy Include
@@ -84,15 +86,15 @@ Empowering Wordpress with other powerful tools should be made a lot easier.
 Frontin provides very little markup and tries to keep it as neutral possible. Although you are going to find some common layout elements (a banner, a footer etc.), you can easily remove such elements from your whole project by editing your index.php file. 
 
 
-	&lt;?php include 'parts/banner.php'; ?&gt;
-	&lt;?php include 'parts/main.php'; ?&gt;
-	&lt;?php //include 'parts/complementary.php'; /* no longer used */ ?&gt;
-	&lt;?php //include 'parts/contentinfo.php'; /* no longer used */ ?&gt;
+	<?php include 'parts/banner.php'; ?>
+	<?php include 'parts/main.php'; ?>
+	<?php //include 'parts/complementary.php'; /* no longer used */ ?>
+	<?php //include 'parts/contentinfo.php'; /* no longer used */ ?>
 
 
 Including a new layout element is as easy as removing one: add whatever you want in index.php and you will see it appear everywhere on your project.</p>
 
-	&lt;?php include 'parts/mynav.php'; ?&gt;
+	<?php include 'parts/mynav.php'; ?>
 
 
 ## A "From Structure To Content" Outline
