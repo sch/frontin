@@ -56,10 +56,9 @@ Directory structure:
 	        Zend
 	        ...
 
-In your template:
+In __config.php:
 
-	// __config.php
-	// Easy Include
+	// Friendly Include
 	define( 'PROJECT_PATH', realpath( dirname( __FILE__ ) ) );
 
 	set_include_path( implode( PATH_SEPARATOR, array(
