@@ -7,7 +7,6 @@
 
 ## What?
 
-[Project homepage](http://alexduloz.github.com/frontin/)
 
 Frontin is a simple, lightweight template which advocates using Wordpress as a Front Controller. The concept is quite simple: Wordpress has the ability to call the index.php file of a given template every time a page is requested, thus mimicking the Front Controller Pattern.
 
