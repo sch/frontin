@@ -105,11 +105,6 @@ Frontin's markup does its best to remain neutral (you will not find any semantic
 All the familiar Wordpress pages are located in the assets directory (the only difference with a casual template is that they're not called directly by Wordpress, but through index.php). If you want to use Wordpress in a more conventional way, you can edit those pages as if you were working with a typical template. If you go that way, you still have the benefits of Frontin: little markup and little code repetition.
 
 
-## The steroid version
-
-Frontin has been used as the blueprint for [CurtainsUp For Wordpress](http://alexduloz.github.com/CurtainsUp/)
-
-
 ## Change Log
 
 ### 0.1.0
